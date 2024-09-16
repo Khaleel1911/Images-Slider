@@ -1,0 +1,36 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+#imgcontainer{
+    width: 400px;
+    height: 300px;
+    /* border: 2px solid red; */
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px ;
+}
+
+button{
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
