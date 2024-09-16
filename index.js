@@ -10,7 +10,7 @@ images = ["meta","apple","amazon","netflix","google"];
 
 let cursor=0;
 let intervalid;
-
+imgcontainer.innerHTML=`<img src="./images/${images[cursor]}.png">`;   //added this line after fist commit
 // function initializer(){
 //     if(cursor>4){
 //         cursor=0;
